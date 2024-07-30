@@ -1,0 +1,18 @@
+*{
+
+margin: 10px  auto;
+max-width: 1500px;
+
+}
+.cat-items{
+display: grid;
+/* grid-template-columns: repeat(3, 1fr); */
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+gap: 1rem;
+}
+
+#search-form{
+display: flex;
+gap: 10px;
+
+}
